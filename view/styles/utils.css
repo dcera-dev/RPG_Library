@@ -1,0 +1,127 @@
+.centered-x {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.centered-y {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.centered-full {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blurred-backing {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+}
+
+.solid-backing {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #c4bbb8;
+}
+
+.rounded-button {
+    min-height: fit-content;
+    height: 2em;
+    max-height: 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+    background-color: #188Fa7;
+    color: aliceblue;
+    text-shadow: 0px 0px 2px #615d6c;
+    border: none;
+    outline: none;
+}
+
+.rounded-button:hover {
+    background-color: #13768a;
+}
+
+.text-input {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 5px #615d6c;
+    background-color: aliceblue;
+    color: #615d6c;
+}
+
+.shadowed-box {
+    box-shadow: 0px 0px 50px #615d6c;
+}
+
+.small-box {
+    box-shadow: 0px 0px 5px #615d6c;
+    background-color: #c4bbb8;
+    border: 1px solid #615d6c;
+    border-radius: 5px;
+}
+
+.contrast-box {
+    box-shadow: 0px 0px 5px #188fa7;
+    background-color: #615d6c;
+    border: 1px solid #c4bbb8;
+    border-radius: 5px;
+}
+
+.text-font {
+    color: #615d6c;
+    text-decoration: none;
+}
+
+.text-contrast {
+    color: #c4bbb8;
+}
+
+.text-bold {
+    font-weight: bolder;
+}
+
+.shadowed-text {
+    text-shadow: 0px 0px 2px white;
+}
+
+.header {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+a {
+    font-size: small;
+    color: #188Fa7;
+    text-shadow: 0px 0px 1px #615d6c;
+}
+
+a:hover {
+    color: #1cadca;
+}
+
+.err-div {
+    max-width: 100%;
+}
+
+.err-msg {
+    width: 100%;
+    color: #f2542d;
+    text-shadow: 0px 0px 1px#615d6c;
+}

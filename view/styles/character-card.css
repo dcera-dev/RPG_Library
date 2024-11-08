@@ -1,0 +1,79 @@
+#main {
+    width: 100%;
+}
+
+#mainData {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+#mainDesc {
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#mainDesc p, #mainDesc h4 {
+    margin-top: 5%;
+}
+
+#mainImg {
+    width: 40%;
+}
+
+#mainImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.cont {
+    height: 95%;
+    margin: 7.5% 5% 0;
+}
+
+.backing-img {
+    position: absolute;
+    background-image: url('../../assets/library-background.webp');
+    margin-top: 5%;
+    height: 95%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    border-top: 3px solid black;
+}
+
+p, b, h4, #imgUpload {
+    color: aliceblue;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px black;
+}
+
+select {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    color: #615d6c;
+}
+
+select option {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    color: #615d6c;
+}
+
+select option:hover {
+    background-color: #188fa7;
+}
+
+#imgPreview {
+    margin-bottom: 1em;
+    max-width: 600px;
+    max-height: 600px;
+}
