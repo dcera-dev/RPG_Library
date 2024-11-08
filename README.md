@@ -64,4 +64,4 @@ Characters can be added from the main library screen after logging in. Editing/D
  - Agile/SCRUM Methodology: Features were developed to a working state, then further refined with feedback and collaboration in an iterative development environment.
 
  ## Link to Project
-[RPG Library] https://github.com/dancer6108/RPG_Library
+[RPG Library] (https://github.com/dcera-dev/RPG_Library)
