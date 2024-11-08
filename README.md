@@ -1,5 +1,5 @@
 # RPG Library
-RPG Library is a PHP-based web application that can be run on Apache/XAMPP. The programe allows for the creation and management of RPG-Characters, with features for tracking a characters personality traits, archetype, description, and profile image.
+RPG Library is a PHP-based web application that can be run on Apache/XAMPP. The program allows for the creation and management of RPG Characters, with features for tracking a characters personality traits, archetype, description, and profile image.
 
 ## Installation
 With Apache running, open PHPMyAdmin and import the provided database-init file. This will populate the database with the tables it needs to function. From there, simply open the program in a web browser. There is an admin account with examples of different characters, it can be access by using the following login:
